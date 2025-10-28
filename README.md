@@ -27,20 +27,3 @@ The pipeline works as follows:
 ---
 
 
-
-\## Setup
-
-```bash
-
-\# Clone the repository
-
-git clone https://github.com/yourusername/violence-detection.git
-
-cd violence-detection
-
-
-
-\# Install required packages
-
-pip install -r requirements.txt
-
