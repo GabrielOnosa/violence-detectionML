@@ -1,4 +1,4 @@
-\# Violence Classifier Project 
+# Violence Classifier Project 
 
 
 
@@ -9,7 +9,7 @@ Detects violent actions in videos using a combination of \*\*YOLOv8-Pose\*\*, \*
 ---
 
 
-\##  Overview
+##  Overview
 
 The pipeline works as follows:
 
