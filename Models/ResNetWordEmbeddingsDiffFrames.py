@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np
 from decord import VideoReader, cpu
 from ultralytics import YOLO
-import Yolo_Frame_selector
+from Preprocessing import Yolo_Frame_selector
 from time import time
 from tqdm import tqdm
 

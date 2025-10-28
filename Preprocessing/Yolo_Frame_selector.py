@@ -53,8 +53,8 @@ def yolo_frame_selector(video, yolo_pose):
         for i in range(len(results)):
             for j in range(i+1, len(results)):
                 distanta = proximity_score(results[i], results[j])
-                intersectie = box_overlap_score(results_boxes[i].xyxy, results_boxes[j].xyxy)
-                distante_frame.append(distanta + intersectie)
+                intersectie = box_overlap_score(results_boxes[i].xyxyn, results_boxes[j].xyxyn)
+                distante_frame.append(distanta + 1/intersectie)
         distante.append(min(distante_frame))
     distante = np.array(distante)
     if len(distante) >= 3:
@@ -63,8 +63,6 @@ def yolo_frame_selector(video, yolo_pose):
         return [38,76,114]
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':            #this is the code I write to do the Yolo preprocessing by itself at once
     import pandas as pd
     import os
-
-    for
