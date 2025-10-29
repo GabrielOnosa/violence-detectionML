@@ -1,4 +1,4 @@
-# Violence Classifier Project 
+# Violence Classifier Multimodal Pipeline 
 
 
 
